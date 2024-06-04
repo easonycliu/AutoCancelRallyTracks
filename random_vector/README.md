@@ -30,5 +30,5 @@ This track accepts the following parameters with Rally 0.8.0+ using `--track-par
  - index_bulk_size (default: 1000)
  - search_iterations (default: 1000)
  - search_clients (default: 8)
- - dims (default: 128)
+ - dims (default: 128) ATTENTION: Now fixed to 128
  - partitions (default: 1000)

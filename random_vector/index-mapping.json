@@ -25,9 +25,7 @@
         "type": "dense_vector",
         "index": true,
         "similarity": "cosine",
-        "index_options": {
-          "type": {{ vector_index_type | default("flat") | tojson }}
-        }
+		"dims": 128
       }
     }
   }
